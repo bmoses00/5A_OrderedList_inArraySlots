@@ -17,8 +17,6 @@ public class OrderedList_inArraySlots {
         return list.get(index);
     }
 
-    // public int set() {}
-
     public boolean add(int value) {
         int index = 0;
         for (; index < list.size() && list.get(index) < value; index++) {}
